@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     form: {
         width:'100%',
         height:'auto',
-        marginTop: 20,
+        marginTop: 10,
         padding: 30,
     },
     formLabel: {
@@ -22,9 +22,28 @@ const styles = StyleSheet.create({
         paddingBottom: 2,
     },
     formInput:{
+       width:'90%', 
        backgroundColor: '#E6E7ED',
-       borderRadius: 13,
+       borderRadius: 10,
+       paddingVertical: 10,
+       paddingLeft:10,
        margin: 10,
+    },
+    textButtonCalculator:{
+        fontFamily:'Nunito-Sans',
+        fontSize:20,
+        color:'#FFF',
+        fontWeight:'bold',
+    },
+    ButtonCalculator: {
+        borderRadius: 30,
+        justifyContent: 'center',
+        alignItems: 'center',
+        width:'90%',
+        backgroundColor: '#73628A',
+        paddingVertical: 14,
+        marginLeft: 14,
+        margin: 12,
     }
   });
 
