@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
     texTitle: {
         color:'#FFF',
         fontSize: 24,
+        fontFamily: 'Josefins-Sans',
         fontWeight: 'bold',
     }
   });

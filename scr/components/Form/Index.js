@@ -51,9 +51,9 @@ export default function Form(){
                 <TouchableOpacity
                  style={styles.ButtonCalculator}
                  onPress={validationImc}>
-                    <Text style={styles.textButtonCalculator}>
-                        {textButton}
-                    </Text>             
+                <Text style={styles.textButtonCalculator}>
+                    {textButton}
+                </Text>             
                 </TouchableOpacity>
             </View>
             <ResultImc messageResultImc={messageImc} ResultImc={Imc}/>
